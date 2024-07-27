@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+  }
+  
+  .container {
+    color: white;
+    margin-top: 150px;
+  }
+  
+  span{
+      margin: 5px 5px;
+  }
+  
+  #hr,
+  #min,
+  #seconds,
+  #milli {
+    font-size: 150px;
+    font-weight: bold;
+  }
+  
+  #text {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #btn-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .btn {
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #start {
+    background-color: rgb(56, 216, 56);
+  }
+  
+  #stop {
+    background-color: rgb(33, 33, 221);
+  }
+  
+  #reset {
+    background-color: rgb(241, 54, 54);
+  }
